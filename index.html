@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🧑‍🚀 Galaxy Astronaut Legends</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #1a1a40, #000428);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+
+    .card {
+      perspective: 1000px;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 320px;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      cursor: pointer;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .card-front {
+      background: #292c6d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+
+    .card-front h3 {
+      margin: 0.3rem 0;
+    }
+
+    .card-back {
+      background: #0c2d57;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .card-back h4 {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧑‍🚀 Galaxy Astronaut Legends</h1>
+
+  <div class="card-grid">
+    <!-- Cards Start -->
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">🧑‍🚀</div><h3>Nova Vega</h3><p>Mars Pioneer</p>
+    </div><div class="card-back"><h4>🌌 Mission: Red Frontier</h4><p>First to establish a base on Mars. Born on Earth, trained on the ISS.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">👩‍🚀</div><h3>Luma Orion</h3><p>Lunar Geologist</p>
+    </div><div class="card-back"><h4>🌕 Mission: MoonMiner</h4><p>Specialist in moon rock studies. Born in India. Loves stardust analysis.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">🧑🏽‍🚀</div><h3>Rex Altair</h3><p>Astro Engineer</p>
+    </div><div class="card-back"><h4>🛠️ Mission: Station X</h4><p>Built space habitats in orbit. Designs modular stations.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">👨‍🚀</div><h3>Kai Zenith</h3><p>Gravity Scientist</p>
+    </div><div class="card-back"><h4>🧲 Mission: Zero-G Lab</h4><p>Researches gravity on different moons. Known for space math genius.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">👩🏾‍🚀</div><h3>Nyra Solaris</h3><p>Cosmic Botanist</p>
+    </div><div class="card-back"><h4>🌱 Mission: Eden IX</h4><p>Grew first plant in zero gravity. Dreams of planting trees on Venus.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">🧑🏼‍🚀</div><h3>Leo Astra</h3><p>Comet Navigator</p>
+    </div><div class="card-back"><h4>☄️ Mission: Icy Path</h4><p>Mapped the Halley Belt manually. Born in Brazil. Expert in slingshots.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">🧑‍🚀</div><h3>Zara Cosmo</h3><p>Black Hole Diver</p>
+    </div><div class="card-back"><h4>🕳️ Mission: Singularity</h4><p>Entered edge of a black hole. Documented extreme time dilation.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">👩‍🚀</div><h3>Maya Quasar</h3><p>Stellar Linguist</p>
+    </div><div class="card-back"><h4>📡 Mission: PulseCode</h4><p>Decodes pulsar signals. Built first AI-to-spacecraft translator.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">👨🏻‍🚀</div><h3>Orion Pulse</h3><p>Deep Space Pilot</p>
+    </div><div class="card-back"><h4>🪐 Mission: Outbound X</h4><p>Pilot of humanity’s furthest spaceship. Never returned. A legend.</p></div></div></div>
+
+    <div class="card"><div class="card-inner"><div class="card-front">
+      <div class="avatar">🧑🏿‍🚀</div><h3>Aria Nebula</h3><p>Time Explorer</p>
+    </div><div class="card-back"><h4>⏳ Mission: ChronoNet</h4><p>Tests time-bending orbits near wormholes. Theoretical physicist turned explorer.</p></div></div></div>
+    <!-- Cards End -->
+  </div>
+</body>
+</html>
